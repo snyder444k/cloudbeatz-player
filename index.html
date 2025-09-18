@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Songs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="./favicon.jpg" sizes="32*32">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="hero">
+    <div class="head">
+      <p class="drop">BE<br>AT</p>
+      <i class="fa-brands fa-soundcloud"></i>
+    </div>
+
+    <div class="main">
+      <div class="convey">
+
+        <div class="song">
+          <p class="title" id="title">You Rock My World</p>
+          <p class="bant" id="bant">Micheal Jackson</p>
+        </div>
+
+        <audio src="" id="audio"></audio>
+
+        <div class="para">
+          <div class="disc" id="disc"></div>
+          <div class="col-flex">
+            <input type="range" value="0" id="range">
+            <span class="finders">
+              <p id="currentTime">00:00</p>
+              <p id="duration"></p>
+            </span>
+          </div>
+          <div class="plays">
+            <span id="back"><i class="fa-solid fa-backward-step" id="backButton"></i></span>
+            <span id="play"><i class="fa-solid fa-play" id="playButton"></i></span>
+            <span id="next"><i class="fa-solid fa-forward-step" id="nextButton"></i></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
